@@ -18,8 +18,8 @@ that the pre-process module can work with. There are 4 required components that 
  - Elevation Directory
  - Velocity_X Directory
  - Veloity_Y Directory
-      - Terrain.asc File
-      - Frames directory
+ - Terrain.asc File
+ - Frames directory
 
 Below is an example of a directory setup for being preprocessed.
 
@@ -28,13 +28,13 @@ Below is an example of a directory setup for being preprocessed.
 # 2.1.1. Import Terrain 
 ![Configure](Media/Imort_Terrain.png)
 To import the terrain on which the geophysical flow occurred:
-    -	select the `TerrainImporter` game object 
-    -	Next, click on Browse, and navigate to the terrain file. Note that currently only .asc files are supported.
-    -	Click on Load to load the terrain data. This can take some time.
-    -	The fields below, such as Width, Length, and Maximum Height will get populated automatically depending on the terrain data. Only change these if you know what you are doing. You may decrease the Resolution if you wish to decrease the accuracy while improving performance.
-    -	Select the Target Terrain to import data into.
-    -	If necessary, enable mirroring along diagonal (Transpose) or either of the axes (Mirror X, Mirror Y)
-    -	Click Import. If the result is incorrect (e.g. flipped along the diagonal) modify the import setting above and try again.
+    - select the `TerrainImporter` game object 
+    - Next, click on Browse, and navigate to the terrain file. Note that currently only .asc files are supported.
+    - Click on Load to load the terrain data. This can take some time.
+    - The fields below, such as Width, Length, and Maximum Height will get populated automatically depending on the terrain data. Only change these if you know what you are doing. You may decrease the Resolution if you wish to decrease the accuracy while improving performance.
+    - Select the Target Terrain to import data into.
+    - If necessary, enable mirroring along diagonal (Transpose) or either of the axes (Mirror X, Mirror Y)
+    - Click Import. If the result is incorrect (e.g. flipped along the diagonal) modify the import setting above and try again.
 
 # 2.1.2. Import flow 
 To import the flow data, you can now navigate in the Unity project to Window -> WoWW -> Pre-processing. 
@@ -42,21 +42,21 @@ The following window will be displayed.
 
 ![Configure](Media/Preprocessing.png)
 
-    -	Select folder to process: - Select the parent folder of the 4 components, as explained above.
-    -	Select destination folder: - Select the folder where pre-processed data should be stored. Use <Project>/Assets/StreamingAssets/SceneData/<Scene>/Frames.
-    -	Click Process and wait. Note that this operation can take some time depending on the size and amount of data and will use all your available CPU resources.
+   - Select folder to process: - Select the parent folder of the 4 components, as explained above.
+   - Select destination folder: - Select the folder where pre-processed data should be stored. Use <Project>/Assets/StreamingAssets/SceneData/<Scene>/Frames.
+   - Click Process and wait. Note that this operation can take some time depending on the size and amount of data and will use all your available CPU resources.
 At the end of this step, you will have binary file inside the “Frames” folder. 
 
 # 2.2. Simulation Module 
 ![Configure](Media/Simulation.png)
 To set up the simulation module, follow the following steps:
-    -	Set up a scenario by navigating to Assets->Breach->Scenarios and click on Sample Scenario
-    -	Add multiple variations if relevant (for this case only one)
-    -	Add path, the path should be a relative path from within Assets/StreamingAssets/SceneData
-    -	Add the flow-material for this simulation.
-    -	Next, select the “WaterSimulation” game object. 
-    -	Find it and add the Sample Scenario to the Config
-    -	In the playback speed, use the interval (time steps) you used in your numerical simulation. For example, if you saved your CSV file every one second use one, if every 20 seconds use 20 seconds for realistic simulation. 
+  - Set up a scenario by navigating to Assets->Breach->Scenarios and click on Sample Scenario
+  - Add multiple variations if relevant (for this case only one)
+  - Add path, the path should be a relative path from within Assets/StreamingAssets/SceneData
+  - Add the flow-material for this simulation.
+  - Next, select the “WaterSimulation” game object. 
+  - Find it and add the Sample Scenario to the Config
+  - In the playback speed, use the interval (time steps) you used in your numerical simulation. For example, if you saved your CSV file every one second use one, if every 20 seconds use 20 seconds for realistic simulation. 
 At the end of this step, the project is already set up and ready to include the interactions. 
 
 # 2.3.Interaction Module 
