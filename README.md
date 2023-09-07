@@ -22,6 +22,7 @@ that the pre-process module can work with. There are 4 required components that 
        • Frames directory
 
 Below is an example of a directory setup for being preprocessed.
+
 ![Configure](Media/Input_Folder.png)
 
 # 2.1.1. Import Terrain 
@@ -38,7 +39,9 @@ To import the terrain on which the geophysical flow occurred:
 # 2.1.2. Import flow 
 To import the flow data, you can now navigate in the Unity project to Window -> WoWW -> Pre-processing. 
 The following window will be displayed. 
+
 ![Configure](Media/Preprocessing.png)
+
     •	Select folder to process: - Select the parent folder of the 4 components, as explained above.
     •	Select destination folder: - Select the folder where pre-processed data should be stored. Use <Project>/Assets/StreamingAssets/SceneData/<Scene>/Frames.
     •	Click Process and wait. Note that this operation can take some time depending on the size and amount of data and will use all your available CPU resources.
