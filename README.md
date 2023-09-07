@@ -61,9 +61,12 @@ At the end of this step, the project is already set up and ready to include the 
 The interaction module contains the XR rig and several UI elements. 
 The main center interaction is XRActionBased game object.  
 You do not need to change anything on this game object. Of course you can change anything if you know what you are doing. 
+
 ![Configure](Media/XR_RIG.png)
+
 The UI, `MainMenu` contains Buttons with which a user interacts virtual environment. 
-![Configure](Media/XR_RIG.png)
+
+![Configure](Media/Main_Menu.png)
 
 ## 3.Unity Build 
 This folder contains the already built Unity applications that can be played via Oculus Quest 2 and VR compatible Computer.
