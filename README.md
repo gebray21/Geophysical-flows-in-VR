@@ -61,6 +61,11 @@ The interaction module contains the XR rig and several UI elements.
 The main center interaction is XRActionBased game object.  
 You do not need to change anything on this game object. Of course you can change anything if you know what you are doing. 
 ![Configure](Media/XR_RIG.png)
-The UI, “MainMenu” contains Buttons with which a user interacts virtual environment. 
+The UI, `MainMenu` contains Buttons with which a user interacts virtual environment. 
 ![Configure](Media/XR_RIG.png)
+
+## 3.Unity Build 
+This folder contains the already built Unity applications that can be played via Oculus Quest 2 and VR compatible Computer. 
+## 4. Sample CSV file 
+This folder contains sample CSV files of 2D and 3D simulation results. In both of the CSV file folders, the first 3 columns are X, Y, and Z coordinates, the next three columns are velocities in X, Y and Z directions. The seventh column in the 2D CSV files is the flow height and in the 3D CSV files it is the interface variable. Both the python scripts are created based on such data structures. In case there are different structures, a user can modify the python scripts at lines 165-174 in the Read_CSV_2D.py and lines 141-158 in the Read_CSV_3D.py scripts. 
 
