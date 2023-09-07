@@ -28,7 +28,7 @@ Below is an example of a directory setup for being preprocessed.
 # 2.1.1. Import Terrain 
 ![Configure](Media/Imort_Terrain.png)
 To import the terrain on which the geophysical flow occurred:
-    -	select the ´TerrainImporter` game object 
+    -	select the `TerrainImporter` game object 
     -	Next, click on Browse, and navigate to the terrain file. Note that currently only .asc files are supported.
     -	Click on Load to load the terrain data. This can take some time.
     -	The fields below, such as Width, Length, and Maximum Height will get populated automatically depending on the terrain data. Only change these if you know what you are doing. You may decrease the Resolution if you wish to decrease the accuracy while improving performance.
