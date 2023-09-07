@@ -15,11 +15,11 @@ This is a sample Unity project based on which the Unity Build is made.This is a 
 Before stating working with the pre-processing module, one needs to organize the data into a format 
 that the pre-process module can work with. There are 4 required components that need to be in the same parent folder:
 
-       - Elevation Directory
-       - Velocity_X Directory
-       - Veloity_Y Directory
-       - Terrain.asc File
-       - Frames directory
+      - Elevation Directory
+      - Velocity_X Directory
+      - Veloity_Y Directory
+      - Terrain.asc File
+      - Frames directory
 
 Below is an example of a directory setup for being preprocessed.
 
