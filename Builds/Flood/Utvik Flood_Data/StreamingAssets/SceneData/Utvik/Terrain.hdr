@@ -1,0 +1,14 @@
+ENVI
+description = {
+Terrain.raw}
+samples = 4098
+lines   = 4098
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 2
+interleave = bsq
+byte order = 0
+map info = {Arbitrary, 1, 1, 369097.875, 6855350.125, 0.175512445095168, 0.187957540263543, 0, North}
+band names = {
+Band 1}

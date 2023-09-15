@@ -73,7 +73,10 @@ crashlytics-build.properties
 Unity Projects/Assets/StreamingAssets/SceneData/Utvik/Terrain_0s_0.25m.asc.meta
 
 #Big files 
-/[Bb]uilds/Flood/Utvik Flood_Data
+/[Bb]uilds/Flood/Utvik Flood_Data/level0.resS
+/[Bb]uilds/Flood/Utvik Flood_Data/sharedassets0.assets.resS
+/[Bb]uilds/Flood/Utvik Flood_Data/StreamingAssets/SceneData/Utvik/Terrain_0s_0.25m.asc
+
 #Landslide
 /[Bb]uilds/Landslide/GjerdrumLandslide_Data/level0.resS
 /[Bb]uilds/Landslide/GjerdrumLandslide_Data/sharedassets0.assets.resS
