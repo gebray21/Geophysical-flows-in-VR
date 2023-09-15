@@ -6,7 +6,7 @@
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
-/[Bb]uilds/
+#/[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
@@ -71,3 +71,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Unity Projects/Assets/StreamingAssets/SceneData/Utvik/Terrain_0s_0.25m.asc.meta
+
+#Big files 
+/[Bb]uilds/Flood/
+/[Bb]uilds/Landslide/
+/[Bb]uilds/Snow/
