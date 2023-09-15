@@ -74,7 +74,11 @@ Unity Projects/Assets/StreamingAssets/SceneData/Utvik/Terrain_0s_0.25m.asc.meta
 
 #Big files 
 /[Bb]uilds/Flood/Utvik Flood_Data
-/[Bb]uilds/Landslide/GjerdrumLandslide_Data
+#Landslide
+/[Bb]uilds/Landslide/GjerdrumLandslide_Data/level0.resS
+/[Bb]uilds/Landslide/GjerdrumLandslide_Data/sharedassets0.assets.resS
+/[Bb]uilds/Landslide/GjerdrumLandslide_Data/StreamingAssets/SceneData/Gjerdrum/Terrain05m.asc
+# Snow
 /[Bb]uilds/Snow/Skogshorn Snow_Data/level0.resS
 /[Bb]uilds/Snow/Skogshorn Snow_Data/sharedassets0.assets.resS
 /[Bb]uilds/Snow/Skogshorn Snow_Data/sharedassets0.assets.resS
